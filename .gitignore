@@ -1,0 +1,29 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and environment variables
+.env
+.env.*
+
+# Python editor and test files
+.vscode/
+.pytest_cache/
+
+# Large AI model files
+*.safetensors
+*.gguf
+*.onnx
+
+# Local videos and generated outputs
+*.mp4
+*.mov
+*.avi
+output/
+temp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
